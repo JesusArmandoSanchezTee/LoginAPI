@@ -1,0 +1,31 @@
+# Rider
+.idea/
+*.sln.iml
+
+# Build outputs
+src/**/bin/
+src/**/obj/
+*.dll
+*.pdb
+*.exe
+
+# Logs
+*.log
+logs/
+
+# User-specific files
+*.user
+*.suo
+*.vs/
+.vscode/
+
+# Auto-generated
+Generated_Code/
+TestResults/
+
+# HTTP Client
+httpRequests/
+
+# Other OS files
+.DS_Store
+Thumbs.db
