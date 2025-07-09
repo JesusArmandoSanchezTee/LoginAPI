@@ -108,25 +108,3 @@ Usamos **FluentValidation** para validar comandos como `LoginUserCommand` y `Reg
 2. Ejecuta las migraciones (si usas EF Core migrations).
 3. Ejecuta el proyecto con `dotnet run`.
 4. Abre Swagger en `https://localhost:{puerto}/swagger`.
-
----
-
-## 📂 Estructura de carpetas
-
-MyApp/
-│
-├── Domain/
-│ ├── Entities/
-│ ├── Interfaces/
-│ └── Exceptions/
-│
-├── Application/
-│ ├── Features/User/Commands/
-│ └── Validators/
-│
-├── Infrastructure/
-│ └── Persistence/
-│
-├── Host/
-│ ├── Controllers/
-│ └── Middlewares/
