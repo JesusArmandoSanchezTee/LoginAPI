@@ -3,8 +3,8 @@
 *.sln.iml
 
 # Build outputs
-src/**/bin/
-src/**/obj/
+**/bin/
+**/obj/
 *.dll
 *.pdb
 *.exe
